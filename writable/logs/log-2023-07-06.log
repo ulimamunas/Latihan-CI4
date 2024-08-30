@@ -1,0 +1,227 @@
+CRITICAL - 2023-07-06 03:57:07 --> Class "App\Models\PengirimanModel" not found
+in APPPATH\Controllers\PengirimanController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\PengirimanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 03:59:26 --> Class "App\Models\PengirimanModel" not found
+in APPPATH\Controllers\PengirimanController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\PengirimanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:06:59 --> Class "App\Models\PengirimanModel" not found
+in APPPATH\Controllers\PengirimanController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\PengirimanController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:08:24 --> Undefined variable $accounts
+in APPPATH\Views\pages\pengiriman_view.php on line 37.
+ 1 APPPATH\Views\pages\pengiriman_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:08:53 --> Undefined array key "Ongkir"
+in APPPATH\Views\pages\pengiriman_view.php on line 43.
+ 1 APPPATH\Views\pages\pengiriman_view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Ongkir"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:09:03 --> Undefined array key "Status"
+in APPPATH\Views\pages\pengiriman_view.php on line 44.
+ 1 APPPATH\Views\pages\pengiriman_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Status"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:09:10 --> Undefined variable $account
+in APPPATH\Views\pages\pengiriman_view.php on line 48.
+ 1 APPPATH\Views\pages\pengiriman_view.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $account', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:09:42 --> Undefined variable $account
+in APPPATH\Views\pages\pengiriman_view.php on line 64.
+ 1 APPPATH\Views\pages\pengiriman_view.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $account', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:10:03 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 74.
+ 1 APPPATH\Views\pages\pengiriman_view.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:11:13 --> syntax error, unexpected end of file
+in APPPATH\Views\pages\pengiriman_view.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 3 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:12:38 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 74.
+ 1 APPPATH\Views\pages\pengiriman_view.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:26:56 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:29:27 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:29:31 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:35:05 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:35:14 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:35:18 --> Undefined array key "role"
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:35:43 --> Undefined property: App\Controllers\PengirimanController::$validation
+in APPPATH\Controllers\PengirimanController.php on line 25.
+ 1 APPPATH\Controllers\PengirimanController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PengirimanController::$validation', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Controllers\\PengirimanController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:36:02 --> Undefined property: App\Controllers\PengirimanController::$validation
+in APPPATH\Controllers\PengirimanController.php on line 25.
+ 1 APPPATH\Controllers\PengirimanController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PengirimanController::$validation', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Controllers\\PengirimanController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:39:15 --> Undefined property: App\Controllers\PengirimanController::$validation
+in APPPATH\Controllers\PengirimanController.php on line 25.
+ 1 APPPATH\Controllers\PengirimanController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PengirimanController::$validation', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Controllers\\PengirimanController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:41:10 --> Undefined property: App\Controllers\PengirimanController::$validation
+in APPPATH\Controllers\PengirimanController.php on line 25.
+ 1 APPPATH\Controllers\PengirimanController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PengirimanController::$validation', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Controllers\\PengirimanController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 04:52:22 --> Undefined array key "status  "
+in APPPATH\Views\pages\pengiriman_view.php on line 71.
+ 1 APPPATH\Views\pages\pengiriman_view.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status  "', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\latihan_ci4\\app\\Views\\pages\\pengiriman_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 5 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:00:57 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\pages\pengiriman_view.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 3 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:01:05 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\pages\pengiriman_view.php on line 48.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/pengiriman_view', [], true)
+ 3 APPPATH\Controllers\PengirimanController.php(19): view('pages/pengiriman_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PengirimanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
